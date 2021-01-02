@@ -1,0 +1,9 @@
+﻿
+namespace Catalog.Api.Settings
+{
+    public interface ICatalogDatabaseSettings
+    {
+        string ConnectionString { get; set; }
+        string DatabaseName { get; set; }
+    }
+}
